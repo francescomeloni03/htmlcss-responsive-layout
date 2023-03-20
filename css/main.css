@@ -11,7 +11,7 @@
 
 header{
     min-height: 70px;
-    background-color: blue;
+    background-color: #0084fd;
 }
 
 
@@ -37,4 +37,98 @@ header{
     text-decoration: none;
     border-radius: 15px;
     border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box-main-1{
+    min-height: 600px;
+    border: 1px solid black;
+}
+
+
+.container-1{
+    width: 700px;
+    min-height: 515px;
+    margin: auto;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+
+.box-rettangolo{
+    width: calc(680px / 3 * 2);
+    height: 226px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: #b5ddff;
+}
+
+
+
+.box-quadrato{
+    width: calc(680px / 3);
+    height: 226px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: #b5ddff;
+}
+
+
+
+
+.box-main-2{
+    min-height: 700px;
+    border: 1px solid black;
+    background-color: #9792e4;
+}
+
+
+
+.container-2{
+    width: 700px;
+    border: 1px solid black;
+    margin: auto;
+    min-height: 600px;
+    display: flex;
+    align-items: end;
+}
+
+
+.rettangolo-vert{
+    width: calc(100% / 2);
+    height: 500px;
+    border: 1px solid black;
+}
+
+
+
+.rettangolo-vert-2{
+    width: calc(100% / 2);
+    height: 350px;
+    border: 1px solid black;
+    border-radius: 30px;
 }

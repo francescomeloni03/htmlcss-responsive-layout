@@ -41,7 +41,9 @@ header{
     border: none;
 }
 
-
+.layout-Tablet{
+    display: none;
+}
 
 
 
@@ -545,6 +547,15 @@ footer a{
 
     .box-about-us{
         padding-left: 30px;
+    }
+
+    .layout-Tablet{
+        display: block;
+        color: white;
+    }
+
+    .layout-Desktop{
+        display: none;
     }
 
    

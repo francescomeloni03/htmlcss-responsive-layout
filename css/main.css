@@ -553,6 +553,11 @@ footer a{
     .layout-Tablet{
         display: block;
         color: white;
+        padding-right: 30px;
+    }
+
+    .Logo-Nav div{
+        padding-left: 30px;
     }
 
     .layout-Desktop{
@@ -573,10 +578,16 @@ footer a{
     .layout-Tablet{
         display: block;
         color: white;
+        padding-right: 30px;
     }
 
     .layout-Desktop{
         display: none;
+    }
+
+
+    .Logo-Nav div{
+        padding-left: 30px;
     }
 
     .box-rettangolo{
@@ -698,6 +709,165 @@ footer a{
 
     .rettangolo-vert-2 p{
         font-size: 20px;
+    }
+
+
+    .box-persone{
+        flex-direction: column;
+        height: auto;
+        width: 670px;
+        margin: auto;
+        margin-top: 30px;
+
+    }
+
+    .foto{
+        width: auto;
+        height: auto;
+        padding-top: 20px;
+    }
+
+    .box-persone img{
+        height: 450px;
+        width: 450px;
+        border-radius: 250px;
+    }
+
+    .testo{
+        height: auto;
+        width: auto;
+    }
+
+
+    .testo p, .testo h4{
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .container-3 h4{
+        font-size: 20px;
+
+    }
+
+    .container-3 h1{
+        font-size: 50px;
+    }
+
+    .container-3 p{
+        font-size: 30px;
+
+    }
+
+    .box-main-3{
+        margin-bottom: 30px;
+    }
+
+
+
+    .container-4{
+        flex-direction: column;
+    }
+
+    .box-quadrato-2{
+        width: 660px;
+        height: auto;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .box-quadrato-2 h2{
+        font-size: 90px;
+    }
+
+    .box-quadrato-2 h3{
+        font-size: 50px;
+
+    }
+
+    .box-quadrato-2 p{
+        font-size: 35px;
+    }
+
+    .box-quadrato-2 button{
+        width: 300px;
+        height: 60px;
+        border-radius: 40px;
+       margin-bottom: 20px;
+    }
+
+    .box-main-4 h1{
+        font-size: 70px;
+    }
+
+
+    .container-5{
+        flex-direction: column;
+    }
+
+    .box-about-us h1{
+        font-size: 80px;
+
+    }
+
+    .box-about-us p{
+        font-size: 40px;
+        line-height: normal;
+    }
+
+    .box-foto-about-us{
+        width: 100%;
+        align-items: baseline;
+        padding-left: 120px;
+        padding-top: 50px;
+    }
+
+
+    .box-foto-about-us img{
+        width:300px;
+        height: 300px;
+        border-radius: 150px;
+    }
+
+
+    .box-foto-about-us h3{
+        font-size: 60px;
+    }
+
+    .box-foto-about-us button{
+        width: 350px;
+        height: 60px;
+        border-radius: 50px;
+        margin-bottom: 70px;
+    }
+
+
+    .box-main-6 h5{
+        font-size: 30px;
+    }
+
+    .box-main-6 h2{
+        font-size: 40px;
+    }
+
+    .box-main-6 h1{
+        font-size: 60px;
+    }
+
+    .box-main-6 p{
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+
+    .box-main-6 button{
+        width: 425px;
+        height: 75px;
+        border-radius: 50px;
+    }
+
+
+    footer p{
+        font-size: 25px;
+
     }
 
 

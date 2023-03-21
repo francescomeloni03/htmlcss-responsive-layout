@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:serif;
 }
 
 
@@ -62,7 +63,6 @@ header{
 
 .box-main-1{
     min-height: 600px;
-    border: 1px solid black;
 }
 
 
@@ -70,7 +70,6 @@ header{
     width: 700px;
     min-height: 515px;
     margin: auto;
-    border: 1px solid black;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -82,9 +81,9 @@ header{
 .box-rettangolo{
     width: calc(680px / 3 * 2);
     height: 226px;
-    border: 1px solid black;
     border-radius: 15px;
     background-color: #b5ddff;
+    display: flex;
 }
 
 
@@ -92,9 +91,53 @@ header{
 .box-quadrato{
     width: calc(680px / 3);
     height: 226px;
-    border: 1px solid black;
     border-radius: 15px;
     background-color: #b5ddff;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.size-font{
+    font-size: 50px;
+}
+
+
+.box-quadrato i{
+    color: #0084fd;
+}
+
+
+.box-quadrato h4{
+    color: #0084fd;
+}
+
+
+
+.box-quadrato-interno{
+    width: calc(680px / 3);
+    height: 226px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+
+.box-quadrato-interno img{
+    height: 204px;
+}
+
+
+.box-quadrato-interno button{
+    width: 140px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    background-color: #0084fd;
+    color: white;
+}
+
+.box-quadrato-interno h4{
+    color: #0084fd;
 }
 
 
@@ -102,7 +145,6 @@ header{
 
 .box-main-2{
     min-height: 700px;
-    border: 1px solid black;
     background-color: #9792e4;
 }
 
@@ -110,7 +152,6 @@ header{
 
 .container-2{
     width: 700px;
-    border: 1px solid black;
     margin: auto;
     min-height: 600px;
     display: flex;
@@ -121,7 +162,18 @@ header{
 .rettangolo-vert{
     width: calc(100% / 2);
     height: 500px;
-    border: 1px solid black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+
+.rettangolo-vert img{
+    height: 250px;
+    margin: auto;
+    
 }
 
 
@@ -129,14 +181,32 @@ header{
 .rettangolo-vert-2{
     width: calc(100% / 2);
     height: 350px;
-    border: 1px solid black;
     border-radius: 30px;
+    text-align: center;
+    background-color: white;
 }
+
+.rettangolo-vert-2 img{
+    height: 185px;
+    padding-top: 10px;
+}
+
+.rettangolo-vert-2 button{
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    border: none;
+    background-color: #9792e4;
+}
+
+
+
+
+
 
 
 .box-main-3{
     min-height: 900px;
-    border: 1px solid black;
 
 }
 
@@ -145,7 +215,6 @@ header{
     width: 700px;
     min-height: 800px;
     margin: auto;
-    border: 1px solid black;
     text-align: center;
     
     
@@ -155,24 +224,40 @@ header{
 .box-persone{
     width: 700px;
     height: 200px;
-    border: 1px solid black;
     display: flex;
     margin-top: 20px;
     background-color: #9792e4;
+    border-radius: 30px;
+   
+}
+
+
+
+.box-persone img{
+    height: 150px;
+    width: 150px;
+    border-radius: 78px;
+
 }
 
 
 .foto{
     width:200px;
     height: 200px;
-    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .testo{
     width: 500px;
     height: 200px;
-    border: 1px solid black;
+    text-align: initial;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
 
 }
 
@@ -204,7 +289,6 @@ header{
 .container-4{
     width: 700px;
     margin: auto;
-    border: 1px solid black;
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -222,22 +306,43 @@ header{
 .box-quadrato-2{
     width: calc(680px / 3);
     height: 250px;
-    border: 1px solid black;
     margin-bottom: 25px;
     border-radius: 15px;
     background-color: white;
+    padding-top: 25px;
+    padding-left: 20px;
+}
+
+.box-quadrato-2 h2{
+    color: #9792e4;
+    font-size: 40px;
+}
+
+.box-quadrato-2 h3{
+    color: #9792e4;
 }
 
 
-.box-main-5{
 
+
+.box-quadrato-2 button{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    background: #9792e4;
+    color: white
 }
+
+
+
+
+
 
 
 .container-5{
     width: 700px;
     min-height: 500px ;
-    border: 1px solid black;
     margin: auto;
     display: flex;
     align-items: center;
@@ -248,8 +353,18 @@ header{
 .box-about-us{
     width: calc(100% / 3 * 2);
     min-height: 400px;
-    border: 1px solid black;
 
+}
+
+
+
+.box-about-us p{
+    line-height: 30px;
+}
+
+
+.box-about-us h1{
+    color: #9792e4;
 }
 
 
@@ -257,10 +372,38 @@ header{
 .box-foto-about-us{
     width: calc(100% / 3);
     min-height: 400px;
-    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
+.box-foto-about-us img{
+    height: 120px;
+    width: 120px;
+    border-radius: 60px;
+
+}
+
+
+
+.box-foto-about-us h3{
+    color: #9792e4;
+    padding-top: 20px;
+}
+
+
+
+
+.box-foto-about-us button{
+    width: 140px;
+    height: 30px;
+    border: none;
+    border-radius: 25px;
+    margin-top: 20px;
+    background-color: #9792e4;
+    color: white;
+}
 
 .box-main-6{
     text-align: center;

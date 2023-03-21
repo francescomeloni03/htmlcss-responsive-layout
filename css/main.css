@@ -120,6 +120,10 @@ header{
 .box-quadrato-interno{
     width: calc(680px / 3);
     height: 226px;
+
+}
+
+.padding{
     padding-left: 20px;
     padding-top: 20px;
 }
@@ -489,10 +493,7 @@ footer a{
 
 
 
-
-
-
-@media screen and (max-width: 768px ) {
+@media screen and (min-width:481px) and (max-width: 768px ) {
 
     body{
         width: 100%;
@@ -560,5 +561,147 @@ footer a{
 
    
  
+}
+
+
+
+@media screen and (min-width:200px) and (max-width: 480px) {
+    body{
+        width: 100%;
+    }
+
+    .layout-Tablet{
+        display: block;
+        color: white;
+    }
+
+    .layout-Desktop{
+        display: none;
+    }
+
+    .box-rettangolo{
+        flex-direction: column;
+        height: max-content;
+        width: 680px;
+        margin-top: 40px;
+        margin-bottom: 25px;
+
+    }
+
+
+    .box-quadrato-interno{
+        height: max-content;
+        width: 680px;
+    }
+
+    .box-quadrato-interno img{
+        height: auto;
+    }
+
+    .box-quadrato-interno button{
+        width: 320px;
+        height: 65px;
+        border-radius: 93px;
+        font-size: 30px;
+
+    }
+
+
+
+    .box-quadrato-interno h4{
+        font-size: 40px;
+    }
+
+    .box-quadrato-interno p{
+        font-size: 30px;
+    }
+
+
+
+    .box-quadrato{
+        width: 680px;
+        margin-bottom: 25px;
+    }
+
+    .container-1{
+        justify-content: center;
+    }
+
+    .box-quadrato{
+        font-size: 30px;
+        height: 500px;
+    }
+
+    .size-font{
+        font-size: 150px;
+    }
+
+    .box-quadrato h4{
+        font-size: 50px;
+    }
+    .box-quadrato p{
+        font-size: 30px;
+    }
+
+
+
+    .rettangolo-vert{
+        width: auto;
+        height: auto;
+        padding-left: 30px;
+    }
+
+    .container-2{
+        flex-direction: column;
+    }
+
+
+    .rettangolo-vert img{
+        height: 500px;
+    }
+
+    .rettangolo-vert h3{
+        font-size: 50px;
+    }
+
+
+    .rettangolo-vert p{
+        font-size: 30px;
+    }
+
+
+    .rettangolo-vert-2{
+        width: 660px;
+        margin: auto;
+        height: auto;
+        margin-bottom: 40px;
+        padding-bottom: 20px;
+    }
+
+    .rettangolo-vert-2 img{
+        height: 560px;
+
+    }
+
+    .rettangolo-vert-2 button{
+        width: 60px;
+        height: 60px;
+        border-radius: 35px;
+        font-size: 30px;
+
+    }
+
+
+    .rettangolo-vert-2 h4{
+        font-size: 30px;
+    }
+
+    .rettangolo-vert-2 p{
+        font-size: 20px;
+    }
+
+
+   
+
 }
 
